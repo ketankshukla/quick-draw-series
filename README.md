@@ -1,86 +1,41 @@
-# Book Series Template
+# Quick Draw Series
 
-A reusable template repository for creating book series projects — fiction or non-fiction. Clone this repo, fill in the creative brief, and let Cascade (Windsurf AI) generate the entire project automatically.
+**A Five-Book Spaghetti Western Saga by Harlan J. Westbrook**
 
-This template captures the best patterns from three completed series projects and provides a complete starting point for planning, writing, publishing, and marketing a book series.
-
----
-
-## What This Template Includes
-
-- **Client request template** (`client-request-template.md`) — fillable creative brief for clients
-- **Next.js 16 website** with React 19, Tailwind CSS 4, TypeScript, and Lucide React — fully functional with `{{PLACEHOLDER}}` parameterized components
-- **Book series planning documents** with fill-in-the-blank placeholders
-- **Amazon KDP publishing templates** with metadata, pricing, and launch strategy
-- **AI image prompt templates** for ebook covers, paperback wraps, branding, box sets, social media, character portraits, and YouTube thumbnails
-- **Front and back matter templates** for both fiction and non-fiction
-- **PowerShell DOCX generation scripts** using Pandoc for manuscript assembly
-- **Video script and prompt templates** for HeyGen trailers and marketing videos
-- **Complete directory structure** for organizing all book content, images, and production files
+_"In the Arizona Territory, justice comes at the speed of a bullet."_
 
 ---
 
-## Directory Structure
+## About the Series
 
-```
-book-series-template/
-|-- README.md                          # This file
-|-- SETUP.md                           # Step-by-step setup checklist
-|-- client-request-template.md         # Fillable creative brief (client input)
-|-- book-series-plan.md                # Series planning document (fill-in-the-blanks)
-|-- book-series-template.md            # Master series vision document
-|-- amazon-publishing-template.md      # KDP metadata, pricing, launch strategy
-|-- .gitignore
-|-- package.json                       # Pre-configured dependencies
-|-- tsconfig.json / next.config.ts     # TypeScript and Next.js config
-|-- postcss.config.mjs / eslint.config.mjs / vercel.json
-|
-|-- book-series/                       # ALL BOOK CONTENT
-|   |-- series-description.md          # HTML-formatted KDP series description
-|   |-- kdp-categories-and-keywords.md # Categories and keywords per book
-|   |-- ai-image-tools.md              # Guide to AI image generation tools
-|   |-- word-docs/                     # DOCX generation scripts and output
-|   |   |-- chapters-only/             # Chapter-only DOCX files
-|   |   |-- complete/                  # Complete book DOCX files (front+chapters+back)
-|   |   |-- make_book_docx.ps1         # PowerShell: chapters -> DOCX
-|   |   |-- make_complete_docx.ps1     # PowerShell: full book -> DOCX
-|   |-- front-matter-templates/        # Front matter templates
-|   |-- back-matter-templates/         # Back matter templates
-|   +-- [BOOK DIRECTORIES CREATED PER BOOK]
-|
-|-- book-blurbs/                       # Short marketing blurbs per book
-|-- book-prompts/                      # AI image generation prompts
-|   |-- ebook-covers/                  # Per-book ebook cover prompts
-|   |-- paperback-wraps/               # Per-book paperback cover prompts
-|   |-- branding/                      # Series logo and branding prompts
-|   |-- box-sets/                      # Box set / collection cover prompts
-|   |-- social-media/                  # Social media image prompts
-|   |-- character-portraits/           # [FICTION ONLY] Character portraits
-|   +-- youtube-thumbnails/            # YouTube thumbnail prompts
-|
-|-- book-images/                       # Generated images (from AI tools)
-|-- amazon-production/                 # Production-ready publishing files
-|-- video-prompts/                     # Video generation specifications
-|-- video-scripts/                     # Marketing video scripts
-|-- archived-prompts/                  # Previous prompt iterations
-|-- archived-images/                   # Previous image iterations
-|
-+-- src/                               # NEXT.JS WEBSITE
-    |-- app/
-    |   |-- layout.tsx                 # Root layout (parameterized)
-    |   |-- page.tsx                   # Main single-page app
-    |   +-- globals.css                # Global styles with CSS variables
-    |-- components/
-    |   |-- Header.tsx / Hero.tsx / BooksSection.tsx
-    |   |-- BookCard.tsx / BookModal.tsx
-    |   |-- AuthorSection.tsx / Footer.tsx
-    |   |-- YouTubePlayer.tsx / ImageProtection.tsx
-    |-- context/
-    |   +-- BookContext.tsx             # Book state management
-    +-- data/
-        |-- books.ts                   # Book and Chapter interfaces + data
-        +-- characters.ts             # [FICTION ONLY] Character data
-```
+The **Quick Draw Series** is a five-book spaghetti western saga set in the Arizona Territory of the 1870s. It follows Elijah "Quick Draw" Cade, a former Union sharpshooter turned peaceful rancher whose world is destroyed when the ruthless outlaw Rattlesnake Reno Hatch murders his family as part of a corrupt railroad baron's land-grab scheme. What begins as a white-hot quest for vengeance becomes an epic tale of justice, love, sacrifice, and the death of the Old West.
+
+Across five books, Elijah assembles an unlikely alliance — a fierce female sharpshooter with her own vendetta, a Lakota tracker who moves like smoke through the canyons, a former gunslinger turned preacher haunted by his own past, and a wisecracking trail companion who masks his courage with humor. Together they take on an outlaw empire funded by railroad money, fighting across the mesas, canyons, and dusty frontier towns of the American Southwest.
+
+---
+
+## The Books
+
+| #   | Title                     | Subtitle                      | Theme                                       |
+| --- | ------------------------- | ----------------------------- | ------------------------------------------- |
+| 1   | **Dust and Vengeance**    | A Debt Paid in Lead           | Loss, transformation, the birth of a hunter |
+| 2   | **The Devil's Canyon**    | Where Outlaws Go to Die       | Pursuit, alliance, the conspiracy revealed  |
+| 3   | **Blood on the Horizon**  | The War for Red Mesa          | Escalation, sacrifice, Marisol's legend     |
+| 4   | **Ashes of the Frontier** | Love and Ruin in the Badlands | Love, loss, Father Thorn's sacrifice        |
+| 5   | **The Last Draw**         | When the Sun Sets on the West | Resolution, reckoning, a new dawn           |
+
+---
+
+## Series Details
+
+- **Genre:** Spaghetti Western / Frontier Epic
+- **Author:** Harlan J. Westbrook
+- **Publisher:** Metronagon
+- **Books:** 5 books, 10 chapters each, ~3,000 words per chapter
+- **Total:** ~150,000 words
+- **Content Rating:** Adult (18+)
+- **Tone:** Gritty, cinematic, sun-scorched — the literary equivalent of a Sergio Leone film
+- **Comparable Titles:** Lonesome Dove, Blood Meridian, The Dark Tower
 
 ---
 
@@ -96,50 +51,48 @@ book-series-template/
 
 ---
 
-## Automated Workflow (4 Phases)
+## Project Structure
 
-### Phase 1: Clone & Initialize
-
-```powershell
-# Clone this template into a new project folder
-gh repo clone ketankshukla/book-series-template E:\your-series-name
-
-# Remove template git history and reinitialize
-Remove-Item -Recurse -Force E:\your-series-name\.git
-Set-Location E:\your-series-name
-git init
 ```
-
-### Phase 2: Client Request → Content Generation Details
-
-1. Copy `client-request-template.md` to `{series-name}-client-request.md`
-2. Fill in all fields with client information
-3. Tell Cascade: _"Read {series-name}-client-request.md and generate {series-name}-content-generation-details.md"_
-4. Cascade produces a comprehensive ~800-1200 line specification file
-
-### Phase 3: Content Generation Details → All Content
-
-Tell Cascade to read the content generation details file and generate:
-
-- Full chapter text for every book (markdown files)
-- Front and back matter for every book
-- Website source code (all components, data files, CSS, metadata)
-- Amazon publishing metadata, KDP categories, keywords
-- Image prompts (3 variations per book cover + logo + hero)
-- Marketing templates (video scripts, HeyGen prompts)
-- Build verification and push to GitHub
-
-### Phase 4: Image Generation & Deploy
-
-1. Generate cover images from prompts using ChatGPT (the **only manual step**)
-2. Place images in `public/images/`
-3. Final build, commit, and push — Vercel auto-deploys from GitHub
-
-> **See `E:\metronagon\workflow-new-book-series.md` for the complete detailed workflow with exact Cascade prompts.**
+quick-draw-series/
+|-- README.md                                        # This file
+|-- SETUP.md                                         # Step-by-step setup checklist
+|-- workflow-new-book-series.md                      # End-to-end workflow
+|-- client-request-template.md                       # Blank client request template
+|-- quick-draw-series-client-request.md              # Completed client request (example)
+|-- quick-draw-series-content-generation-details.md  # Content generation blueprint
+|-- book-series-plan.md                              # Series planning document
+|-- book-series-template.md                          # Master series vision document
+|-- amazon-publishing-template.md                    # KDP metadata, pricing, launch strategy
+|
+|-- book-series/                                     # ALL BOOK CONTENT
+|   |-- series-description.md
+|   |-- kdp-categories-and-keywords.md
+|   |-- word-docs/                                   # DOCX generation scripts
+|   |-- front-matter-templates/
+|   +-- back-matter-templates/
+|
+|-- book-prompts/                                    # AI image generation prompts
+|   |-- ebook-covers/ | paperback-wraps/ | branding/
+|   |-- box-sets/ | social-media/ | character-portraits/
+|   +-- youtube-thumbnails/
+|
+|-- book-images/                                     # Generated images
+|-- book-blurbs/                                     # Marketing blurbs
+|-- amazon-production/                               # Production-ready publishing files
+|-- video-prompts/ | video-scripts/                  # Video content
+|-- public/images/                                   # Website images (covers, logo, author)
+|
++-- src/                                             # NEXT.JS WEBSITE
+    |-- app/        (layout.tsx, page.tsx, globals.css)
+    |-- components/ (Header, Hero, Books, BookModal, Author, Footer)
+    |-- context/    (BookContext.tsx)
+    +-- data/       (books.ts, characters.ts)
+```
 
 ---
 
-## Quick Start (Development)
+## Quick Start
 
 ```powershell
 # Install dependencies
@@ -152,8 +105,19 @@ npm run dev
 npm run build
 ```
 
-See `SETUP.md` for the complete step-by-step setup checklist.
+---
+
+## Workflow Status
+
+This project was generated from the [book-series-template](https://github.com/ketankshukla/book-series-template) repository using the automated Cascade workflow. See `workflow-new-book-series.md` for the complete end-to-end process.
+
+| Phase                               | Status                         |
+| ----------------------------------- | ------------------------------ |
+| Phase 1: Clone & Initialize         | Complete                       |
+| Phase 2: Content Generation Details | Complete (blueprint generated) |
+| Phase 3: Generate All Content       | Pending                        |
+| Phase 4: Image Generation & Deploy  | Pending                        |
 
 ---
 
-**Template by:** Ketan Shukla | **Publisher:** Metronagon | **Website:** metronagon.com
+**Author:** Harlan J. Westbrook | **Publisher:** Metronagon | **Website:** quickdraw.ketanshukla.com

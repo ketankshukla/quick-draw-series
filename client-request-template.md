@@ -132,9 +132,7 @@ _(Add more characters as needed)_
 
 -
 -
--
-
-**ROMANCE LEVEL:** _(REQUIRED — choose one)_
+- **ROMANCE LEVEL:** _(REQUIRED — choose one)_
 
 - [ ] None — No romantic subplots
 - [ ] Light — Tension and chemistry only, no explicit scenes
@@ -234,6 +232,12 @@ _(Write your content restrictions here)_
 - [ ] Ebook only
 - [ ] Ebook + Paperback
 - [ ] Ebook + Paperback + Hardcover
+
+**BOX SET STRATEGY:** _(OPTIONAL — describe how books should be bundled for box sets, or leave blank for Cascade to decide based on series structure)_
+
+> Example: "Act I (Books 1-2), Act II (Books 3-4), Complete Collection (Books 1-5)" or "No box sets" or "Single complete collection only"
+
+_(Write your box set strategy here)_
 
 **AMAZON CATEGORIES:** _(OPTIONAL — list preferred KDP categories, or leave blank for Cascade to select based on genre)_
 
