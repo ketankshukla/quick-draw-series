@@ -1,0 +1,34 @@
+YOUTUBE THUMBNAIL PROMPT TEMPLATE
+===================================
+Use this template for YouTube video thumbnails.
+Replace all {{PLACEHOLDER}} values. Generate at 16:9 landscape.
+
+---
+
+DIMENSIONS: 1280 x 720 pixels (16:9) -- YouTube recommended
+
+CONCEPT:
+A {{THUMBNAIL_TYPE -- e.g., "dramatic book reveal", "author speaking shot with book overlay", "cinematic scene teaser"}} for a {{VIDEO_TYPE -- e.g., "book trailer", "chapter reading", "behind-the-scenes", "series announcement"}} video about {{SERIES_NAME}}.
+
+VISUAL ELEMENTS:
+- {{MAIN_ELEMENT -- e.g., "The book cover prominently displayed at an angle with dramatic lighting"}}
+- {{SECONDARY_ELEMENT -- e.g., "Author photo or character portrait in the background"}}
+- {{ACCENT_ELEMENT -- e.g., "Dramatic light rays, particles, or atmospheric effects"}}
+
+TEXT OVERLAY ZONES:
+- Leave space for 3-5 word title overlay (large, bold, high contrast)
+- Text position: {{TEXT_POSITION -- e.g., "Right side", "Bottom third", "Top"}}
+- Background behind text must be dark or have a gradient for readability
+
+COLOR PALETTE:
+- Series primary color: {{PRIMARY_COLOR}} -- used for accents and highlights
+- High contrast: Bright elements against dark backgrounds
+- Optimized for small mobile screens
+
+ANTI-PAINTERLY DIRECTIVE:
+Photorealistic or high-quality cinematic. Must look professional and clickable at thumbnail size.
+
+TECHNICAL SPECIFICATIONS:
+- Resolution: 1280 x 720 minimum
+- High contrast and saturation (thumbnails are viewed small)
+- Clear focal point visible even at 120px width

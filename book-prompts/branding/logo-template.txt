@@ -1,0 +1,48 @@
+SERIES LOGO / BRANDING PROMPT TEMPLATE
+=======================================
+Use this template for your series logo and branding elements.
+Replace all {{PLACEHOLDER}} values with your series-specific details.
+
+---
+
+DIMENSIONS: Square (1:1) for icon, or wide (3:1) for banner variant
+
+CONCEPT:
+A {{EMBLEM_TYPE -- e.g., "circular emblem", "shield crest", "geometric monogram", "symbolic icon"}} representing the {{SERIES_NAME}} series.
+
+EMBLEM DESCRIPTION:
+{{EMBLEM_DESCRIPTION -- e.g., "A stylized sun-blade crossed with a jade katana, enclosed in a circular border of Mesoamerican glyphs" or "An open book with golden light radiating from its pages, framed by laurel branches" or "A clean geometric design incorporating the initials of the series title"}}
+
+MATERIALS:
+{{MATERIAL_DESCRIPTION -- e.g., "Aged gold metal with a hammered texture, inlaid with turquoise and obsidian gemstones. The surface shows realistic patina and micro-scratches consistent with ancient craftsmanship." or "Clean brushed gold on matte black, with subtle embossing and debossing effects."}}
+
+BACKGROUND:
+{{BACKGROUND -- e.g., "Pure black (#000000) for maximum contrast" or "Transparent background for versatile placement"}}
+
+LIGHTING:
+{{LIGHTING -- e.g., "Dramatic top-down spotlight creating strong specular highlights on metal surfaces and deep shadows in recessed areas. Subtle rim lighting on the outer edge." or "Soft, even studio lighting for clean, professional appearance."}}
+
+TEXT (if included):
+- Series name: "{{SERIES_NAME}}" in {{FONT_STYLE -- e.g., "Trajan Pro Bold", "elegant serif", "clean sans-serif"}}
+- Text color: {{TEXT_COLOR}}
+- Text position: {{TEXT_POSITION -- e.g., "Below the emblem", "Integrated into the design"}}
+- Kerning: Wide tracking for premium feel
+
+COLOR PALETTE:
+- Primary: {{PRIMARY_COLOR}} -- used for the main emblem elements
+- Secondary: {{SECONDARY_COLOR}} -- used for accent details
+- Background: {{BG_COLOR}}
+
+ANTI-PAINTERLY DIRECTIVE:
+Photorealistic material rendering. Real metal reflections, real gemstone refraction, real surface textures. NOT a flat vector illustration. NOT a cartoon. NOT watercolor. This should look like a photograph of a real physical emblem.
+
+TECHNICAL SPECIFICATIONS:
+- Minimum resolution: 2000x2000 pixels
+- Style: Photorealistic product photography
+- Render quality: 8K, ray-traced lighting
+
+---
+
+PROMPT SUMMARY:
+
+{{Write a single dense paragraph combining all elements for AI image generation.}}

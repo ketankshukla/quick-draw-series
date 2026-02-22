@@ -1,0 +1,57 @@
+CHARACTER PORTRAIT PROMPT TEMPLATE
+====================================
+[FICTION ONLY] Use this template for character portrait prompts.
+Replace all {{PLACEHOLDER}} values. Generate at 2:3 portrait aspect ratio.
+
+---
+
+DIMENSIONS: 1600 x 2400 pixels (2:3 portrait)
+
+CHARACTER: {{CHARACTER_NAME}} -- {{CHARACTER_TITLE}}
+
+ANTI-PAINTERLY DIRECTIVE:
+This must look like a professional cinematic headshot or movie character poster. NOT a painting, NOT a drawing, NOT an illustration. Photorealistic skin with visible pores, real fabric textures, real metal reflections, real hair strand detail.
+
+FACE:
+- Ethnicity/descent: {{ETHNICITY}}
+- Age: {{AGE}}
+- Bone structure: {{BONE_STRUCTURE -- e.g., "Strong jaw, high cheekbones, angular features"}}
+- Skin: {{SKIN_DESCRIPTION -- e.g., "Warm bronze with a luminous natural glow, light battle scars on left cheek"}}
+- Eyes: {{EYE_DESCRIPTION -- e.g., "Large, obsidian-black eyes shot through with golden amber striations. Fierce and intelligent."}}
+- Expression: {{EXPRESSION -- e.g., "Determined, with a hint of compassion. The look of someone who has seen war but hasn't lost hope."}}
+
+HAIR:
+{{HAIR_DESCRIPTION -- e.g., "Raven-black hair in elaborate warrior braids threaded with turquoise beads, gold rings, and obsidian pins. Individual strand detail visible."}}
+
+CLOTHING/ARMOR:
+{{CLOTHING_DESCRIPTION -- e.g., "Mesoamerican-samurai fusion armor: jade-green layered shoulder plates over dark fitted leather. Gold-thread embroidery along the collar. A turquoise pendant at the throat."}}
+- Real fabric/material textures: visible weave, stitching, weathering, patina
+- Accurate light interaction: specular highlights on metal, soft diffusion on cloth
+
+WEAPON/OBJECT (if visible):
+{{OBJECT_DESCRIPTION -- e.g., "A jade-obsidian katana visible over the right shoulder, its blade emitting a faint golden glow."}}
+
+BACKGROUND:
+{{BACKGROUND -- e.g., "Dark, atmospheric, slightly blurred. Hints of their environment: warm torchlight, stone walls, distant campfires."}}
+- Shallow depth of field to keep focus on the character
+- Color-graded to complement the character's accent color
+
+LIGHTING:
+{{LIGHTING -- e.g., "Dramatic Rembrandt lighting. Key light from upper-left creating a triangle of light on the shadow-side cheek. Warm golden tone. Strong rim light from behind creating a halo effect on hair."}}
+
+ACCENT COLOR: {{ACCENT_COLOR_HEX}} -- subtly present in clothing details, eye highlights, or background elements
+
+MOOD:
+{{MOOD -- e.g., "Powerful, commanding, but approachable", "Mysterious, calculating, dangerous", "Wise, weathered, unbreakable"}}
+
+COMPOSITION:
+- Head and shoulders portrait, or three-quarter body
+- Slight angle (not straight-on)
+- Eyes engaging the viewer
+- Rule of thirds: eyes at upper-third horizontal line
+
+TECHNICAL SPECIFICATIONS:
+- Resolution: 8K photorealistic
+- Camera: Shot on Sony A7R V with 85mm f/1.4 portrait lens
+- Depth of field: f/2.0 -- razor-sharp face, beautifully blurred background
+- Color grading: Cinematic, warm shadows, rich skin tones

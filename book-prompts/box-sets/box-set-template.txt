@@ -1,0 +1,39 @@
+BOX SET COVER PROMPT TEMPLATE
+==============================
+Use this template for box set and collection covers.
+Replace all {{PLACEHOLDER}} values. Generate at 3:2 landscape for banner or 9:16 portrait.
+
+---
+
+DIMENSIONS:
+- Landscape banner: 2560 x 1600 pixels (3:2)
+- Portrait cover: 1600 x 2560 pixels (9:16)
+
+CONCEPT:
+A {{LAYOUT_TYPE -- e.g., "cinematic panoramic scene", "triptych composition", "dramatic montage"}} representing {{BOX_SET_NAME -- e.g., "Act I -- The Rising (Books 1-4)"}} of the {{SERIES_NAME}} series.
+
+SCENE DESCRIPTION:
+{{SCENE_DESCRIPTION -- e.g., "A sweeping landscape showing three key locations from the first four books, connected by a dramatic sky. Left: the ancient temple. Center: the burning fortress. Right: the coastal cliffs. Characters from all four books appear as small but recognizable figures in their respective locations." or "All five book covers arranged in an elegant display with dramatic lighting, as if photographed on a premium display shelf."}}
+
+COLOR PALETTE:
+- Unifying tone: {{UNIFYING_COLOR -- e.g., "Warm golden hour lighting ties all elements together"}}
+- Per-book accent colors visible as subtle elements
+- Background: {{BG_TONE}}
+
+TEXT PLACEMENT:
+- "{{SERIES_NAME}}" at top center, {{FONT_STYLE}}, {{TEXT_COLOR}}
+- "{{BOX_SET_NAME}}" below series name, slightly smaller
+- "Books {{START}}-{{END}}" as subtitle
+- "by Ketan Shukla" at bottom
+- Leave clear zones for all text elements
+
+ANTI-PAINTERLY DIRECTIVE:
+Photorealistic rendering. Cinematic quality. NOT oil painting, NOT illustration. Real environmental lighting, real atmospheric effects, real material textures throughout.
+
+MOOD:
+{{MOOD -- e.g., "Epic scope, grand adventure", "Deep contemplation, intellectual journey", "Dark and intense, high stakes"}}
+
+TECHNICAL SPECIFICATIONS:
+- Resolution: 8K photorealistic
+- Cinematic widescreen composition (for landscape)
+- Rich color depth with professional color grading

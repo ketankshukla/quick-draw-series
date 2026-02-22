@@ -1,0 +1,80 @@
+EBOOK COVER PROMPT TEMPLATE
+============================
+Use this template for each book's ebook cover. Replace all {{PLACEHOLDER}} values.
+Generate with Midjourney, DALL-E 3, or Stable Diffusion at 9:16 portrait aspect ratio.
+
+---
+
+DIMENSIONS: 1600 x 2560 pixels (Amazon KDP recommended), 9:16 portrait orientation
+
+ANTI-PAINTERLY DIRECTIVE:
+This image must look like a high-resolution cinematic photograph or movie poster -- NOT an oil painting, NOT a watercolor, NOT an illustration. No visible brushstrokes. No painterly textures. No soft-focus romanticism. Every surface must have photorealistic material properties: real fabric weave, real metal reflections, real skin texture with pores, real environmental lighting with accurate shadow falloff.
+
+---
+
+SUBJECT:
+A {{SUBJECT_DESCRIPTION -- e.g., "powerful warrior standing on a clifftop" or "dramatic still life of an open book with light emanating from its pages"}}. The subject occupies approximately 40-60% of the frame, positioned according to the rule of thirds.
+
+FACE (if applicable):
+{{FACE_DESCRIPTION -- e.g., "Strong jaw, determined expression, eyes looking slightly off-camera to the right. Warm bronze skin with a luminous natural glow. Large, dark eyes with striking intensity."}}
+- Skin: photorealistic with visible pores, natural oil sheen, micro-imperfections
+- Expression: {{EXPRESSION -- e.g., "fierce determination", "calm wisdom", "haunted resolve"}}
+
+HAIR (if applicable):
+{{HAIR_DESCRIPTION -- e.g., "Raven-black hair in elaborate braids threaded with gold rings and turquoise beads"}}
+- Individual strand detail visible
+- Natural movement suggesting wind or recent action
+
+CLOTHING:
+{{CLOTHING_DESCRIPTION -- e.g., "Fitted dark armor with gold trim and jade inlays" or "Crisp white shirt with rolled sleeves, leather satchel"}}
+- Real fabric/material textures: visible weave, stitching, weathering
+- Accurate light interaction: specular highlights on metal, soft diffusion on cloth
+
+WEAPON/OBJECT (if applicable):
+{{OBJECT_DESCRIPTION -- e.g., "A jade-obsidian katana emanating golden sunfire" or "A leather-bound journal with gilt edges"}}
+- Material accuracy: real metal grain, real leather texture, real gemstone refraction
+
+BACKGROUND:
+{{BACKGROUND_DESCRIPTION -- e.g., "Ancient stone temple on a mountainside at golden hour, dramatic clouds, distant army encampment with fires" or "A vast library stretching into darkness, warm candlelight, floating dust particles"}}
+- Sharp detail throughout -- no soft-focus backgrounds
+- Environmental storytelling: the background hints at the book's themes
+- Depth: foreground elements, middle ground subject, background vista
+
+ATMOSPHERIC EFFECTS:
+{{ATMOSPHERIC_DESCRIPTION -- e.g., "Volumetric golden light rays breaking through storm clouds. Subtle dust particles catching the light. Faint ember-like sparks floating upward."}}
+- Volumetric lighting with realistic scatter
+- Atmospheric haze at appropriate depth distances
+- No artificial lens flares unless specifically desired
+
+COLOR PALETTE:
+Primary: {{PRIMARY_COLOR_HEX}} ({{PRIMARY_COLOR_NAME}})
+Secondary: {{SECONDARY_COLOR_HEX}} ({{SECONDARY_COLOR_NAME}})
+Accent: {{ACCENT_COLOR_HEX}} ({{ACCENT_COLOR_NAME}})
+Background dominant: {{BG_COLOR_DESCRIPTION}}
+
+COMPOSITION RULE:
+Rule of thirds. Subject positioned at {{POSITION -- e.g., "left-third vertical, eyes at upper-third horizontal"}}. Leading lines from background elements draw the eye to the subject. Clear negative space at top (for series name) and bottom (for author name).
+
+TEXT PLACEMENT ZONES (leave clear):
+- Top 8%: Series name zone -- keep clear or very simple background
+- 10-22%: Title block zone -- dramatic but readable background
+- Bottom 8%: Author name zone -- keep clear or dark gradient
+
+LIGHTING:
+{{LIGHTING_DESCRIPTION -- e.g., "Dramatic three-point cinematic lighting. Key light from upper-left at 45 degrees (warm golden). Fill light from right (cool blue). Rim light from behind creating a halo effect on hair and shoulders."}}
+
+MOOD:
+{{MOOD_DESCRIPTION -- e.g., "Epic, powerful, awe-inspiring", "Contemplative, mysterious, profound", "Urgent, dangerous, thrilling"}}
+
+TECHNICAL SPECIFICATIONS:
+- Resolution: 8K photorealistic
+- Camera: Shot on Sony A7R V with 85mm f/1.4 lens
+- Depth of field: f/2.8 -- subject sharp, background slightly softer but still detailed
+- Color grading: Cinematic, slightly desaturated shadows, rich midtones
+- Post-processing: None visible -- no HDR artifacts, no oversaturation
+
+---
+
+PROMPT SUMMARY (single paragraph for AI generation):
+
+{{Write a dense, single-paragraph prompt combining all the above elements. Start with the most important visual element and build outward. End with technical quality keywords.}}

@@ -1,0 +1,38 @@
+SOCIAL MEDIA IMAGE PROMPT TEMPLATE
+=====================================
+Use this template for social media promotional images per book.
+Replace all {{PLACEHOLDER}} values. Generate at 1:1 (Instagram) or 16:9 (Twitter/YouTube).
+
+---
+
+DIMENSIONS:
+- Instagram: 1080 x 1080 pixels (1:1)
+- Twitter/Facebook: 1200 x 675 pixels (16:9)
+- Pinterest: 1000 x 1500 pixels (2:3)
+
+CONCEPT:
+A {{IMAGE_TYPE -- e.g., "dramatic scene", "quote card with atmospheric background", "character spotlight", "book launch announcement"}} for {{BOOK_TITLE}} (Book {{BOOK_NUMBER}} of the {{SERIES_NAME}} series).
+
+SCENE/BACKGROUND:
+{{SCENE_DESCRIPTION -- e.g., "A dramatic atmospheric landscape representing the book's key setting. Rich, moody lighting with the book's accent color prominent in the palette."}}
+
+TEXT OVERLAY ZONES:
+- Leave clear space for overlay text (quote, title, or call-to-action)
+- Dark areas or gradient overlays for text readability
+- Primary text zone: center or lower-third
+
+COLOR PALETTE:
+- Book accent color: {{BOOK_COLOR}}
+- Series primary color: {{PRIMARY_COLOR}}
+- Background: Dark, moody, cinematic
+
+ANTI-PAINTERLY DIRECTIVE:
+Photorealistic or cinematic quality. No painterly effects, no watercolor, no illustration style.
+
+MOOD:
+{{MOOD -- e.g., "Intriguing, makes the viewer want to know more"}}
+
+TECHNICAL SPECIFICATIONS:
+- Resolution: High quality for social media (minimum 1080px on shortest side)
+- Sharp, vibrant colors optimized for mobile screens
+- Strong contrast for small-screen visibility

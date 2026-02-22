@@ -1,0 +1,43 @@
+PAPERBACK WRAP COVER PROMPT TEMPLATE
+======================================
+Use this template for full paperback wrap covers (front + spine + back).
+Replace all {{PLACEHOLDER}} values.
+
+---
+
+DIMENSIONS:
+Front cover: 6 x 9 inches at 300 DPI (1800 x 2700 pixels)
+Full wrap: Varies by page count. Use KDP Cover Calculator for exact dimensions.
+Include: Front cover + Spine + Back cover + Bleed (0.125 inches on all sides)
+
+FRONT COVER:
+(Use the same prompt structure as the ebook cover template, adapted for print dimensions)
+
+{{FRONT_COVER_DESCRIPTION -- Same as ebook cover but at print resolution and dimensions}}
+
+SPINE:
+- Background: {{SPINE_BG -- e.g., "Solid dark color matching the front cover's dominant tone"}}
+- Text (top to bottom): "{{SERIES_NAME}}" | "Book {{BOOK_NUMBER}}: {{BOOK_TITLE}}" | "Ketan Shukla"
+- Font: {{FONT}} in {{SPINE_TEXT_COLOR}}
+- Width: Determined by page count (use KDP calculator)
+
+BACK COVER:
+- Background: {{BACK_BG -- e.g., "Continuation of the front cover's atmospheric background, darker and more subdued"}}
+- Elements:
+  - Book blurb text zone (upper 60%)
+  - Author photo zone (small, lower-left)
+  - Barcode zone (lower-right, required by KDP)
+  - Series logo (upper-left or upper-right)
+  - "Published by Metronagon" (bottom center)
+
+COLOR CONTINUITY:
+The front cover, spine, and back cover must feel like one continuous image or design. Colors, lighting, and atmospheric effects should flow seamlessly across the wrap.
+
+ANTI-PAINTERLY DIRECTIVE:
+Photorealistic quality throughout. Real textures, real lighting, cinematic rendering. NOT illustration, NOT painting.
+
+TECHNICAL SPECIFICATIONS:
+- Resolution: 300 DPI minimum (print quality)
+- Color space: CMYK for print
+- File format: PDF (preferred) or high-quality TIFF
+- Bleed: 0.125 inches on all edges

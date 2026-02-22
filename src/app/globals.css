@@ -1,0 +1,237 @@
+@import "tailwindcss";
+
+/* TODO: Replace these CSS variables with your series color scheme.
+   - PRIMARY_COLOR: The main accent color (e.g., turquoise #40e0d0, gold #d4a843, teal #00CED1)
+   - PRIMARY_LIGHT: A lighter variant of the primary color
+   - PRIMARY_DARK: A darker variant of the primary color
+   - FOREGROUND: The main text color (cream/light tone)
+*/
+@theme inline {
+  --color-background: #000000;
+  --color-foreground: #e8dcc8;
+  --color-primary: #d4a843;
+  --color-primary-light: #e8c96a;
+  --color-primary-dark: #b8922e;
+  --color-dark: #000000;
+  --color-dark-light: #0a0a0a;
+  --color-dark-deep: #050505;
+  --color-cream: #e8dcc8;
+  --color-amazon-yellow: #ffd814;
+  --color-amazon-yellow-hover: #f7ca00;
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-garamond);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) #000000;
+}
+
+body {
+  background: #000000;
+  color: var(--color-foreground);
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  touch-action: pan-x pan-y;
+  -ms-touch-action: pan-x pan-y;
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  touch-action: pan-x pan-y;
+  -ms-touch-action: pan-x pan-y;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: #050505;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.animate-fadeInScale {
+  animation: fadeInScale 0.6s ease-out;
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 168, 67, 0.1),
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-primary-dark));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, var(--color-primary-light), var(--color-primary));
+}
+
+.glass {
+  background: rgba(20, 20, 20, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 168, 67, 0.1);
+}
+
+.glass-dark {
+  background: rgba(5, 5, 5, 0.8);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 168, 67, 0.15);
+}
+
+.gradient-primary {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light), var(--color-primary));
+}
+
+.gradient-dark {
+  background: #000000;
+}
+
+.gradient-text-primary {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.shadow-primary {
+  box-shadow: 0 0 40px rgba(212, 168, 67, 0.15);
+}
+
+.shadow-primary-lg {
+  box-shadow: 0 0 60px rgba(212, 168, 67, 0.25);
+}
+
+.shadow-professional {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.hover-lift {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(212, 168, 67, 0.2);
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
+
+.heading-gradient {
+  background: linear-gradient(135deg, var(--color-cream), var(--color-primary), var(--color-cream));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+.btn-amazon {
+  background: linear-gradient(to bottom, #ffd814, #f7ca00);
+  color: #0f1111;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.75rem 2rem;
+  transition: all 0.2s;
+  border: 1px solid #f2c200;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.2);
+}
+
+.btn-amazon:hover {
+  background: linear-gradient(to bottom, #f7ca00, #e8b800);
+  box-shadow: 0 4px 12px rgba(255, 216, 20, 0.3);
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 17px;
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+img {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  pointer-events: auto;
+}
